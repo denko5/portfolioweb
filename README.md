@@ -31,7 +31,7 @@ portfolioweb/
 │   │   ├── projects/           One image per project (real screenshots or placeholders)
 │   │   └── content/            TikTok video covers (3:4)
 │   ├── icons/                  Favicon, Apple touch icon, manifest icons
-│   └── docs/                   CV and the Tableau project report (PDF)
+│   └── docs/                   CV, Tableau project report (PDF), Power BI file (.pbix)
 ├── datasets/                   CSV files used by the dashboard projects
 ├── favicon.ico
 ├── site.webmanifest
@@ -109,10 +109,13 @@ The "Placeholder graphic" tag and the placeholder note disappear automatically.
 Delete its object from the array.
 
 ### Items that still need your input
-Projects whose `problem` is `""` (NexaHub, Kenya HR Hub, ML Classification Study, MLOps Pipeline) hide that line until you write one. The `problem` text for the others comes from your CV or was derived from the project descriptions, so please review it. Handwritten Digit Classification has no notebook link yet: add it to its `links` array.
+Projects whose `problem` is `""` (NexaHub, Kenya HR Hub, ML Classification Study, MLOps Pipeline) hide that line until you write one. The `problem` text for the others comes from your CV or was derived from the project descriptions, so please review it. Handwritten Digit Classification has no notebook link yet, and Sentence Similarity with BERT and the Social Media Campaign Dashboard have no GitHub link yet: add them to their `links` arrays when ready.
 
 ### Extra screenshots
 Add a `gallery` array to a project (see LexOps) and the details window shows switchable thumbnails.
+
+## Scrolling banner (marquee)
+The band between About and Skills lives in `index.html` under the comment "MARQUEE". Edit the words in the first list, then make the second list (the hidden copy) identical so the loop stays seamless. Its speed is the `42s` value in `.marquee-track` in `styles.css`. It pauses on hover and becomes a static, wrapped list for visitors who prefer reduced motion.
 
 ## Content Creation thumbnails
 The four covers in `assets/img/content/` were cropped from your TikTok profile screenshot (3:4 shape). To refresh them, replace those files or edit the four `<img>` tags in the Content section of `index.html`.

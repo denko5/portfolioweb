@@ -126,7 +126,7 @@
   var state = { filter: "all", expanded: false };
   var lastOpener = null;
 
-  var LINK_ICON = { github: "github", live: "external", notebook: "file", drive: "folder", report: "file" };
+  var LINK_ICON = { github: "github", live: "external", notebook: "file", drive: "folder", report: "file", download: "download" };
 
   function projectLinks(p) {
     if (!p.links || !p.links.length) {

@@ -110,6 +110,37 @@ window.PROJECTS = [
     linkNote: "Public link coming soon"
   },
   {
+    id: "social-media-dashboard",
+    title: "Social Media Campaign Dashboard",
+    category: "dashboards",
+    summary:
+      "A Power BI dashboard that tracks Facebook ad campaign spend, reach, clicks and conversions, built for the Future Interns Data Science and Analytics internship.",
+    problem:
+      "Marketing teams need to see how ad campaigns perform, including engagement, click cost and conversions.",
+    features: [
+      "KPI cards for conversions, spend, impressions, clicks, approved conversions, conversion rate and cost per approved conversion",
+      "Spend and cost per click trends by day and campaign",
+      "Impressions and conversion rate by age group and gender",
+      "Total conversions by campaign",
+      "Gender and age group filters"
+    ],
+    stack: ["Power BI", "Data Visualization", "Marketing Analytics"],
+    image: {
+      src: "assets/img/projects/social-media-dashboard.webp",
+      alt: "Screenshot of the Social Media Campaign Dashboard in Power BI showing KPI cards, spend and cost per click trends, and conversion charts by age and campaign",
+      placeholder: false
+    },
+    links: [
+      {
+        label: "Download Power BI file",
+        url: "assets/docs/Facebook-Ads-Dashboard.pbix",
+        type: "download"
+      }
+    ],
+    // TODO: add a GitHub repository link here once the project is on GitHub.
+    note: "Completed as Task 2 of the Future Interns Data Science and Analytics internship, using the Facebook Ads dataset."
+  },
+  {
     id: "tableau-hr-dashboard",
     title: "Tableau HR Dashboard",
     category: "dashboards",
@@ -173,6 +204,56 @@ window.PROJECTS = [
     ]
   },
   {
+    id: "sales-sql-analysis",
+    title: "Sales Performance Analysis",
+    category: "python-sql",
+    summary:
+      "Cleaned and analyzed 1,000+ African product sales records to surface product performance insights.",
+    problem:
+      "Raw sales records had to be cleaned and queried before product performance could be compared.",
+    features: [
+      "Data cleaning in SQL",
+      "Exploratory analysis across products, regions, salespeople and marketing channels",
+      "Identified top-performing products, markets and sales channels"
+    ],
+    stack: ["SQL", "MySQL Workbench", "EDA"],
+    image: {
+      src: "assets/img/projects/sales-sql-analysis.webp",
+      alt: "Cover slide titled Data Cleaning and Exploratory Data Analysis by Denis Kombe",
+      placeholder: false
+    },
+    links: [
+      { label: "GitHub repository", url: "https://github.com/denko5/Sales-Analysis", type: "github" }
+    ]
+  },
+  {
+    id: "valentines-analysis",
+    title: "Valentine's Day Sales Analysis",
+    category: "python-sql",
+    summary:
+      "An exploratory analysis in SQL of Valentine's Day purchases, covering revenue, customers, products, search behavior and locations.",
+    problem:
+      "Understand how revenue, customers, products and locations contribute to Valentine's Day sales.",
+    features: [
+      "Revenue and sales performance",
+      "Customer demographics and buying behavior",
+      "Shopping trends and best-selling products",
+      "Search behavior and conversion rates",
+      "Geographical performance by meetup point",
+      "Customer spending and values"
+    ],
+    stack: ["SQL", "MySQL", "EDA"],
+    image: {
+      src: "assets/img/projects/valentines-analysis.webp",
+      alt: "Cover slide titled Valentine's Day Data Analysis, Exploratory Data Analysis",
+      placeholder: false
+    },
+    links: [
+      { label: "GitHub repository", url: "https://github.com/denko5/Valentine-s-Analysis", type: "github" }
+    ],
+    note: "This project uses a dummy dataset, so the figures are for practice and illustration only."
+  },
+  {
     id: "nexahub",
     title: "NexaHub Platform",
     category: "software",
@@ -197,29 +278,6 @@ window.PROJECTS = [
     links: [],
     linkNote: "Private repository",
     note: "This is a private personal project and is still in development."
-  },
-  {
-    id: "sales-sql-analysis",
-    title: "Sales Performance Analysis",
-    category: "python-sql",
-    summary:
-      "Cleaned and analyzed 1,000+ African product sales records to surface product performance insights.",
-    problem:
-      "Raw sales records had to be cleaned and queried before product performance could be compared.",
-    features: [
-      "Data cleaning in SQL",
-      "Exploratory analysis across products, regions, salespeople and marketing channels",
-      "Identified top-performing products, markets and sales channels"
-    ],
-    stack: ["SQL", "MySQL Workbench", "EDA"],
-    image: {
-      src: "assets/img/projects/sales-sql-analysis.svg",
-      alt: "Placeholder illustration of a SQL query editor next to a results table",
-      placeholder: true
-    },
-    links: [
-      { label: "GitHub repository", url: "https://github.com/denko5/Sales-Analysis", type: "github" }
-    ]
   },
   {
     id: "campus-crib",
@@ -284,6 +342,36 @@ window.PROJECTS = [
         type: "notebook"
       }
     ]
+  },
+  {
+    id: "bert-sentence-similarity",
+    title: "Sentence Similarity with BERT",
+    category: "python-sql",
+    summary:
+      "An NLP notebook that uses a pre-trained BERT model (bert-base-uncased) to measure how similar two sentences are, using contextual embeddings and cosine similarity.",
+    problem: "Measure how close in meaning two sentences are, beyond matching words.",
+    features: [
+      "Tokenization and embedding extraction with Hugging Face Transformers",
+      "Sentence representation from the [CLS] token",
+      "Cosine similarity between BERT embeddings",
+      "Label prediction with a 0.7 similarity threshold",
+      "Evaluation of prediction accuracy"
+    ],
+    stack: ["Python", "BERT", "Hugging Face", "NLP"],
+    image: {
+      src: "assets/img/projects/bert-sentence-similarity.svg",
+      alt: "Placeholder illustration of two sentences feeding a BERT model that outputs embeddings and a similarity score",
+      placeholder: true
+    },
+    // TODO: add the GitHub repository link for the written report, when you have it.
+    links: [
+      {
+        label: "Colab notebook",
+        url: "https://colab.research.google.com/drive/1v6vtMjUiIwFScBQMJanYLYq5Fw-uoI6W?usp=sharing",
+        type: "notebook"
+      }
+    ],
+    note: "Completed as the Week 11 NLP assignment of the Cyber Shujaa Data and AI program (August 2025)."
   },
   {
     id: "kenya-hr-hub",

@@ -533,6 +533,33 @@ html.modal-open { overflow: hidden; }
 }
 .to-top:hover { transform: translateY(-3px); }
 
+/* ---------- Marquee band between About and Skills ---------- */
+.marquee {
+  overflow: hidden; background: #050914; color: var(--text);
+  border-block: 1px solid var(--line); padding-block: clamp(18px, 3vw, 30px);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+.marquee-track { display: flex; width: max-content; animation: marquee 42s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-group { display: flex; flex: none; align-items: center; }
+.marquee-group li {
+  display: flex; align-items: center; white-space: nowrap;
+  font-family: var(--font-display); font-weight: 700; letter-spacing: -.02em; line-height: 1.2;
+  font-size: clamp(1.4rem, 1rem + 2vw, 2.5rem);
+}
+.marquee-group li::after { content: ""; flex: none; width: 10px; height: 10px; margin-inline: clamp(20px, 3vw, 44px); border-radius: 50%; background: var(--accent); }
+.marquee-group li:nth-child(even) { color: transparent; -webkit-text-stroke: 1.5px var(--dim); }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { -webkit-mask-image: none; mask-image: none; }
+  .marquee-track { width: auto; animation: none; justify-content: center; }
+  .marquee-group { flex-wrap: wrap; justify-content: center; row-gap: 6px; }
+  .marquee-group[aria-hidden="true"] { display: none; }
+  .marquee-group li:nth-child(even) { color: var(--muted); -webkit-text-stroke: 0; }
+}
+
 /* ---------- 14. Motion (only when the visitor allows it) ---------- */
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
