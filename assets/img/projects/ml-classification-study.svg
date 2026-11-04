@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1830"/><stop offset="1" stop-color="#070B17"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+</defs>
+<rect width="960" height="600" fill="url(#bg)"/>
+<g stroke="#243152" stroke-width="1" opacity=".35"><path d="M60 0V600"/><path d="M120 0V600"/><path d="M180 0V600"/><path d="M240 0V600"/><path d="M300 0V600"/><path d="M360 0V600"/><path d="M420 0V600"/><path d="M480 0V600"/><path d="M540 0V600"/><path d="M600 0V600"/><path d="M660 0V600"/><path d="M720 0V600"/><path d="M780 0V600"/><path d="M840 0V600"/><path d="M900 0V600"/><path d="M0 60H960"/><path d="M0 120H960"/><path d="M0 180H960"/><path d="M0 240H960"/><path d="M0 300H960"/><path d="M0 360H960"/><path d="M0 420H960"/><path d="M0 480H960"/><path d="M0 540H960"/></g>
+<rect x="48" y="44" width="864" height="512" rx="18" fill="#111C36" stroke="#243152"/>
+<circle cx="76" cy="72" r="6" fill="#FF6B6B"/><circle cx="96" cy="72" r="6" fill="#F5B84B"/><circle cx="116" cy="72" r="6" fill="#2DD4BF"/>
+<text x="150" y="77" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#6B7A9B">Model comparison (placeholder)</text>
+<path d="M48 96H912" stroke="#243152"/>
+<rect x="84" y="124" width="792" height="400" rx="12" fill="#0B1224" stroke="#243152"/><rect x="112" y="156" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="152" width="640" height="22" rx="8" fill="#2DD4BF" opacity="0.85"/><rect x="112" y="212" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="208" width="590" height="22" rx="8" fill="#5B8CFF" opacity="0.85"/><rect x="112" y="268" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="264" width="560" height="22" rx="8" fill="#A78BFA" opacity="0.85"/><rect x="112" y="324" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="320" width="520" height="22" rx="8" fill="#F5B84B" opacity="0.85"/><rect x="112" y="380" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="376" width="470" height="22" rx="8" fill="#5B8CFF" opacity="0.85"/><rect x="112" y="436" width="70" height="14" rx="7" fill="#6B7A9B" opacity="0.45"/><rect x="200" y="432" width="420" height="22" rx="8" fill="#6B7A9B" opacity="0.85"/>
+</svg>
