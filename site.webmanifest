@@ -1,0 +1,13 @@
+{
+  "name": "Denis Kombe Karisa | Portfolio",
+  "short_name": "Denis Kombe",
+  "description": "Data Analyst, Software Developer, Laravel Developer and Tech Content Creator.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#080D1A",
+  "theme_color": "#080D1A",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://denko5.github.io/portfolioweb/sitemap.xml

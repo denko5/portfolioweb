@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# .gitignore for a static HTML / CSS / JavaScript portfolio.
+# (No Laravel, Composer or Node build step is used by this project,
+#  so only the relevant patterns are included.)
+# ---------------------------------------------------------------
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# Office temporary lock files
+~$*
+
+# Local environment files that may contain secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Only needed if you later add a tool such as a local dev server or image optimizer
+node_modules/
+dist/
+build/
+.cache/
+
+# Jupyter checkpoints (if you add notebooks to the repo)
+.ipynb_checkpoints/

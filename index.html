@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denis Kombe Karisa | Data Analyst, Laravel Developer and Tech Content Creator</title>
+  <meta name="description" content="Portfolio of Denis Kombe Karisa, a Kenyan Data Analyst, Software Developer, Laravel Developer and Tech Content Creator. Dashboards, SQL, Python, Laravel applications, Linux VPS deployment and the Data with Denis TikTok channel.">
+  <meta name="author" content="Denis Kombe Karisa">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080D1A">
+  <meta name="color-scheme" content="dark light">
+  <!-- Update this to your final live address (see README, "Deploy") -->
+  <link rel="canonical" href="https://denko5.github.io/portfolioweb/">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Denis Kombe Karisa">
+  <meta property="og:title" content="Denis Kombe Karisa | Data Analyst, Laravel Developer and Tech Content Creator">
+  <meta property="og:description" content="Turning data into insights and building technology that solves problems. Dashboards, SQL, Python, Laravel applications and tech education.">
+  <meta property="og:url" content="https://denko5.github.io/portfolioweb/">
+  <meta property="og:image" content="https://denko5.github.io/portfolioweb/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Denis Kombe Karisa, Data Analyst, Software Developer, Laravel Developer and Tech Content Creator">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Denis Kombe Karisa | Data Analyst and Laravel Developer">
+  <meta name="twitter:description" content="Turning data into insights and building technology that solves problems.">
+  <meta name="twitter:image" content="https://denko5.github.io/portfolioweb/assets/img/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fonts: two families, swap loading, no render blocking icon fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+
+  <link rel="preload" as="image" href="assets/img/profile-320.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Denis Kombe Karisa",
+    "jobTitle": "Data Analyst and Software Developer",
+    "url": "https://denko5.github.io/portfolioweb/",
+    "image": "https://denko5.github.io/portfolioweb/assets/img/profile-480.jpg",
+    "email": "mailto:deniskombe5@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Kilifi", "addressCountry": "KE" },
+    "alumniOf": "Jaramogi Oginga Odinga University of Science and Technology",
+    "knowsAbout": ["Data analytics", "SQL", "Python", "Power BI", "Tableau", "Laravel", "PHP", "MySQL", "Linux server deployment"],
+    "sameAs": ["https://github.com/denko5", "https://www.linkedin.com/in/deniskombe", "https://x.com/d_w_denis", "https://www.tiktok.com/@code.ke"]
+  }
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- ======================= ICON SPRITE (inline, no external icon font) ======================= -->
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="i-video" viewBox="0 0 24 24"><path d="m23 7-7 5 7 5z"/><rect x="1" y="5" width="15" height="14" rx="2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></symbol>
+  <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></symbol>
+  <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></symbol>
+  <symbol id="i-pie" viewBox="0 0 24 24"><path d="M21.2 15.9A10 10 0 1 1 8 2.8"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.7-4 3-9 3s-9-1.3-9-3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+  <!-- brand marks -->
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3.1-.3 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5.1 5.1 0 0 0 19.9 1S18.7.7 16 2.5a13.4 13.4 0 0 0-7 0C6.3.7 5.1 1 5.1 1A5.1 5.1 0 0 0 5 4.8a5.4 5.4 0 0 0-1.5 3.8c0 5.4 3.3 6.6 6.4 7a3.4 3.4 0 0 0-.9 2.6V22"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M16 3a5 5 0 0 0 5 5v3a8 8 0 0 1-5-1.7V15a6 6 0 1 1-6-6v3.2a3 3 0 1 0 3 2.8V3z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></symbol>
+  <symbol id="i-logo" viewBox="0 0 64 64"><path d="M19 17h10c10 0 16 6 16 15s-6 15-16 15H19zM27 24v16h2c5 0 8-3 8-8s-3-8-8-8z" fill="currentColor" stroke="none" fill-rule="evenodd"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ======================= NAVIGATION ======================= -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-shell">
+    <a class="brand" href="#home" aria-label="Denis Kombe Karisa, go to top">
+      <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-logo"/></svg></span>
+      <span class="brand-text"><strong>Denis Kombe</strong><small>Data and software</small></span>
+    </a>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></a></li>
+        <li><a class="nav-link" href="#about"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg><span>About</span></a></li>
+        <li><a class="nav-link" href="#skills"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg><span>Skills</span></a></li>
+        <li><a class="nav-link" href="#services"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg><span>Services</span></a></li>
+        <li><a class="nav-link" href="#projects"><svg class="icon" aria-hidden="true"><use href="#i-folder"/></svg><span>Projects</span></a></li>
+        <li><a class="nav-link" href="#content"><svg class="icon" aria-hidden="true"><use href="#i-video"/></svg><span>Content Creation</span></a></li>
+        <li><a class="nav-link" href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span>Contact</span></a></li>
+        <li class="nav-panel-extra">
+          <a class="btn btn-ghost" href="assets/docs/Denis-Kombe-CV.pdf" download><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-orb-cta nav-cta" href="#contact">Let's talk <span class="orb" aria-hidden="true"><svg class="icon"><use href="#i-arrow-ur"/></svg></span></a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-grid-lines"></div>
+    <svg class="hero-chart" viewBox="0 0 800 360" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="hc" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".5" stop-color="#2DD4BF"/><stop offset="1" stop-color="#5B8CFF"/></linearGradient>
+        <linearGradient id="hf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".16"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></linearGradient>
+      </defs>
+      <path class="hc-fill" d="M0 300 C80 290 120 250 190 262 S300 300 360 230 S470 150 540 170 S650 90 720 70 L800 40 V360 H0Z" fill="url(#hf)"/>
+      <path class="hc-line" d="M0 300 C80 290 120 250 190 262 S300 300 360 230 S470 150 540 170 S650 90 720 70 L800 40" fill="none" stroke="url(#hc)" stroke-width="2.5" stroke-linecap="round" pathLength="1"/>
+    </svg>
+  </div>
+
+  <div class="container hero-layout">
+    <div class="hero-copy">
+      <h1 class="hero-title" id="hero-title">
+        <span class="t-line">Turning Data Into Insights.</span>
+        <span class="t-line t-dim">Building Technology That Solves Problems.</span>
+      </h1>
+      <p class="hero-lead">I am a Data Analyst, Software Developer, Laravel Developer and Tech Content Creator passionate about transforming data into meaningful insights and building practical digital solutions.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-orb-cta" href="#projects">Explore My Work <span class="orb" aria-hidden="true"><svg class="icon"><use href="#i-arrow-ur"/></svg></span></a>
+        <a class="btn btn-secondary" href="#contact">Let's Work Together</a>
+        <a class="btn btn-ghost" href="assets/docs/Denis-Kombe-CV.pdf" download><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download CV</a>
+      </div>
+      <ul class="hero-social" aria-label="Social profiles">
+        <li><a class="icon-btn" data-social="github" href="https://github.com/denko5" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+        <li><a class="icon-btn" data-social="linkedin" href="https://www.linkedin.com/in/deniskombe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a class="icon-btn" data-social="tiktok" href="https://www.tiktok.com/@code.ke" target="_blank" rel="noopener noreferrer" aria-label="TikTok, Data with Denis (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg></a></li>
+        <li><a class="icon-btn" data-social="x" href="https://x.com/d_w_denis" target="_blank" rel="noopener noreferrer" aria-label="X (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></a></li>
+      </ul>
+    </div>
+
+    <aside class="hero-id" aria-label="About Denis">
+      <div class="id-photo">
+        <picture>
+          <source type="image/webp" srcset="assets/img/profile-320.webp 320w, assets/img/profile-480.webp 480w" sizes="(min-width: 960px) 260px, 96px">
+          <img src="assets/img/profile-320.jpg" srcset="assets/img/profile-320.jpg 320w, assets/img/profile-480.jpg 480w" sizes="(min-width: 960px) 260px, 96px" width="320" height="320" alt="Portrait of Denis Kombe Karisa" fetchpriority="high" decoding="async">
+        </picture>
+      </div>
+      <div class="id-text">
+        <p class="id-name">Denis Kombe Karisa</p>
+        <p class="id-roles">Data Analyst, Software Developer, Laravel Developer and Tech Content Creator</p>
+      </div>
+      <a class="id-chip" href="#content">
+        <span class="id-chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg></span>
+        <span><strong>Data with Denis</strong><small><span data-site="tiktokFollowers">46K+</span> followers on TikTok</small></span>
+      </a>
+    </aside>
+  </div>
+</section>
+
+<!-- ======================= ABOUT ======================= -->
+<section class="section theme-alt" id="about" aria-labelledby="about-title">
+  <div class="container about-layout">
+    <div class="about-copy" data-reveal>
+      <h2 class="section-title" id="about-title">I analyse data and build the systems around it</h2>
+      <p>I studied ICT at Jaramogi Oginga Odinga University of Science and Technology (BSc. ICT, 2021 to 2025). My data analytics skills come from that coursework and from certifications in MySQL and Tableau, analytics for project management, and Data and AI. Most of my analysis work uses SQL, Python, Power BI and Tableau.</p>
+      <p>Alongside the analysis I build software. LexOps, a Laravel legal operations and case management system for a county government setting, is my main active build. Earlier work includes Campus Crib, a PHP and MySQL hostel discovery platform that was my final-year project. I also deploy what I build, with hands-on experience running applications on a Contabo Linux VPS with Nginx and HTTPS.</p>
+      <p>My first roles were in IT operations. I supported the Office of the County Attorney at the County Government of Kilifi, then worked as a Field System Administrator Officer on a hospital management information system rollout. I currently volunteer in ICT at Kilifi County Hospital, supporting the TaifaCare rollout. Outside of work I teach data skills on TikTok as Data with Denis.</p>
+      <ul class="about-facts">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Kilifi, Kenya</li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:deniskombe5@gmail.com" data-site-mail>deniskombe5@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="background-card" data-reveal>
+      <h3 class="card-heading">Experience</h3>
+      <ol class="entries">
+        <li>
+          <p class="entry-when">May 2026 to Present</p>
+          <p class="entry-title">ICT Volunteer</p>
+          <p class="entry-where">Kilifi County Hospital</p>
+          <ul class="entry-points">
+            <li>Support the TaifaCare system rollout across clinical and support units, helping staff with access, navigation and daily use.</li>
+            <li>Provide first-line troubleshooting, document recurring workflow issues and escalate system-level problems.</li>
+          </ul>
+        </li>
+        <li>
+          <p class="entry-when">Dec 2025 to Aug 2026</p>
+          <p class="entry-title">Field System Administrator Officer</p>
+          <p class="entry-where">Roamtech Solutions Limited, Kilifi County Referral Hospital</p>
+          <ul class="entry-points">
+            <li>Led HMIS deployment across 40+ departments and onboarded 400+ clinical and administrative staff.</li>
+            <li>Acted as liaison between the service provider and the county ICT department, and monitored daily system performance and uptime.</li>
+            <li>Trained staff on site and remotely, wrote user guides and authored a stock-take policy document.</li>
+          </ul>
+        </li>
+        <li>
+          <p class="entry-when">May 2024 to Aug 2024</p>
+          <p class="entry-title">IT Support Staff (Attachment)</p>
+          <p class="entry-where">County Government of Kilifi, Office of the County Attorney</p>
+          <ul class="entry-points">
+            <li>Provided IT support, software maintenance and troubleshooting.</li>
+            <li>Digitized 800+ visitor records in Excel to improve record keeping.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h3 class="card-heading">Education</h3>
+      <ol class="entries entries-compact">
+        <li>
+          <p class="entry-when">2021 to 2025</p>
+          <p class="entry-title">BSc. Information and Communication Technology</p>
+          <p class="entry-where">Jaramogi Oginga Odinga University of Science and Technology</p>
+        </li>
+        <li>
+          <p class="entry-when">2017 to 2021</p>
+          <p class="entry-title">Kenya Certificate of Secondary Education</p>
+          <p class="entry-where">Ribe Boys High School</p>
+        </li>
+      </ol>
+
+      <h3 class="card-heading">Certifications</h3>
+      <ol class="entries entries-compact">
+        <li><p class="entry-when">Aug 2025</p><p class="entry-title">Data and AI</p><p class="entry-where">Cyber Shujaa, USIU-Africa (graduated with a Merit)</p></li>
+        <li><p class="entry-when">Mar 2025</p><p class="entry-title">Data Analytics for Project Management</p><p class="entry-where">Udemy</p></li>
+        <li><p class="entry-when">Aug 2024</p><p class="entry-title">Data Analysis with MySQL and Tableau</p><p class="entry-where">Zindua School</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= SKILLS ======================= -->
+<section class="section theme-light" id="skills" aria-labelledby="skills-title">
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <h2 class="section-title" id="skills-title">Skills and technologies</h2>
+      <p class="section-lede">The tools I use for analysis, development, databases and deployment. Each one appears in the projects and experience on this page.</p>
+    </header>
+
+    <div class="skills-grid" data-reveal>
+      <article class="skill-card">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
+        <h3>Data Analytics</h3>
+        <p>Cleaning, exploring, visualizing and reporting on data.</p>
+        <ul class="chips"><li>Python</li><li>SQL</li><li>Power BI</li><li>Tableau</li><li>Jupyter Notebook</li></ul>
+      </article>
+      <article class="skill-card">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span>
+        <h3>Web and Software Development</h3>
+        <p>Responsive websites and database-driven Laravel applications.</p>
+        <ul class="chips"><li>PHP</li><li>Laravel</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li></ul>
+      </article>
+      <article class="skill-card">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
+        <h3>Database Management</h3>
+        <p>Relational design, queries and integration with applications.</p>
+        <ul class="chips"><li>MySQL</li><li>SQL Server</li></ul>
+      </article>
+      <article class="skill-card">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-server"/></svg></span>
+        <h3>Deployment and Infrastructure</h3>
+        <p>Putting applications live and keeping them running.</p>
+        <ul class="chips"><li>Linux</li><li>Ubuntu Server</li><li>Nginx</li><li>VPS Hosting</li><li>Git and GitHub</li></ul>
+      </article>
+    </div>
+    <p class="skills-more" data-reveal>Also in my toolkit: Excel, Docker, Snipe-IT asset management, HMIS administration, technical writing, user training, and TensorFlow and Keras from a neural network project.</p>
+  </div>
+</section>
+
+<!-- ======================= SERVICES ======================= -->
+<section class="section" id="services" aria-labelledby="services-title">
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <h2 class="section-title" id="services-title">Services</h2>
+      <p class="section-lede">I work with individuals, businesses, organizations and institutions. Pick a service and the contact form opens with it filled in.</p>
+    </header>
+
+    <div class="services-grid" data-reveal>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
+        <h3>Data Analytics</h3>
+        <p>I clean, explore and analyse your data so decisions rest on evidence.</p>
+        <ul class="ticks"><li>Data cleaning and preprocessing</li><li>Exploratory data analysis</li><li>Data analysis and reporting</li><li>Data-driven insights</li><li>Business intelligence</li></ul>
+        <ul class="chips"><li>Python</li><li>SQL</li><li>Jupyter Notebook</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Data analytics enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-pie"/></svg></span>
+        <h3>Data Visualization</h3>
+        <p>Dashboards and reports that make the numbers easy to read and act on.</p>
+        <ul class="ticks"><li>Power BI dashboard development</li><li>Tableau dashboards</li><li>Interactive reports</li><li>Data visualization and storytelling</li></ul>
+        <ul class="chips"><li>Power BI</li><li>Tableau</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Data visualization enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg></span>
+        <h3>Web Development</h3>
+        <p>Responsive websites for businesses and organizations, front end to back end.</p>
+        <ul class="ticks"><li>Responsive website development</li><li>Business and organizational websites</li><li>Frontend and backend development</li><li>Website maintenance</li></ul>
+        <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>PHP</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Web development enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span>
+        <h3>Software and System Development</h3>
+        <p>Laravel applications and management systems shaped around how your organization works.</p>
+        <ul class="ticks"><li>Laravel web applications</li><li>Management Information Systems</li><li>Custom business applications</li><li>REST API development and integration</li><li>Database-driven systems</li></ul>
+        <ul class="chips"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>REST APIs</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Software development enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
+        <h3>Database Management</h3>
+        <p>Well-structured relational databases that applications and reports can rely on.</p>
+        <ul class="ticks"><li>Database design</li><li>MySQL database development</li><li>SQL Server database development</li><li>Database integration and management</li></ul>
+        <ul class="chips"><li>MySQL</li><li>SQL Server</li><li>SQL</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Database management enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-server"/></svg></span>
+        <h3>Deployment and Hosting</h3>
+        <p>Getting applications live on a Linux VPS and keeping them healthy.</p>
+        <ul class="ticks"><li>Linux VPS deployment</li><li>Laravel application deployment</li><li>Nginx and server configuration</li><li>HTTPS and SSL configuration</li><li>Application hosting and maintenance</li></ul>
+        <ul class="chips"><li>Linux</li><li>Nginx</li><li>VPS</li><li>HTTPS</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Deployment and hosting enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+      <article class="service">
+        <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-video"/></svg></span>
+        <h3>Technical Content Creation</h3>
+        <p>Clear educational content that explains data and technology to a wide audience.</p>
+        <ul class="ticks"><li>Data analytics educational content</li><li>Technology tutorials</li><li>Technical demonstrations</li><li>Digital educational materials</li></ul>
+        <ul class="chips"><li>Tutorials</li><li>Demonstrations</li><li>Social media</li></ul>
+        <a class="link-arrow" href="#contact" data-subject="Technical content creation enquiry">Discuss this service <svg class="icon" aria-hidden="true"><use href="#i-arrow-r"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PROJECTS ======================= -->
+<section class="section theme-alt" id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <h2 class="section-title" id="projects-title">Projects</h2>
+      <p class="section-lede">Dashboards, analysis notebooks and applications. Projects marked "Placeholder graphic" use an illustration until a real screenshot is added.</p>
+    </header>
+
+    <div class="filters" role="group" aria-label="Filter projects" id="projectFilters">
+      <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="filter" data-filter="software" aria-pressed="false">Software</button>
+      <button type="button" class="filter" data-filter="dashboards" aria-pressed="false">Dashboards</button>
+      <button type="button" class="filter" data-filter="python-sql" aria-pressed="false">Python and SQL</button>
+    </div>
+
+    <ul class="project-grid" id="projectGrid"></ul>
+    <noscript><p class="noscript-note">Projects load with JavaScript. You can also browse all repositories on <a href="https://github.com/denko5?tab=repositories">GitHub</a>.</p></noscript>
+
+    <div class="more-wrap"><button type="button" class="btn btn-secondary" id="projectMore" hidden></button></div>
+  </div>
+</section>
+
+<dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+  <div class="modal-inner" id="modalBody"></div>
+</dialog>
+
+<!-- ======================= CONTENT CREATION ======================= -->
+<section class="section theme-light" id="content" aria-labelledby="content-title">
+  <div class="container content-layout">
+    <div class="content-copy" data-reveal>
+      <h2 class="section-title" id="content-title">Teaching data and tech on TikTok</h2>
+      <p>I run <strong>Data with Denis</strong>, a TikTok channel where I explain data analytics and technology in short, practical videos. The channel has passed <strong><span data-site="tiktokFollowers">46K+</span> followers</strong>, which tells me people value learning this way.</p>
+      <p>Making the content has sharpened a skill that matters in every role: explaining technical ideas clearly to people who are not technical, and building a community around learning.</p>
+      <ul class="chips chips-lg" aria-label="Topics covered">
+        <li>Data analytics</li><li>SQL</li><li>Python</li><li>Power BI</li><li>Technology</li><li>Digital skills</li>
+      </ul>
+      <div class="content-cta">
+        <a class="btn btn-dark btn-orb-cta" data-social="tiktok" href="https://www.tiktok.com/@code.ke" target="_blank" rel="noopener noreferrer">Follow on TikTok <span class="orb" aria-hidden="true"><svg class="icon"><use href="#i-arrow-ur"/></svg></span></a>
+        <a class="btn btn-outline-dark" data-social="x" href="https://x.com/d_w_denis" target="_blank" rel="noopener noreferrer">Follow on X</a>
+      </div>
+    </div>
+
+    <div class="content-media" data-reveal>
+      <ul class="thumbs">
+        <li><img src="assets/img/content/data-cleaning.webp" alt="Data with Denis video cover about data cleaning with MySQL Workbench" width="238" height="316" loading="lazy" decoding="async"></li>
+        <li><img src="assets/img/content/eda-project.webp" alt="Data with Denis video cover about an exploratory data analysis project" width="238" height="316" loading="lazy" decoding="async"></li>
+        <li><img src="assets/img/content/excel-raw-data.webp" alt="Data with Denis video cover showing a raw Excel dataset" width="238" height="316" loading="lazy" decoding="async"></li>
+        <li><img src="assets/img/content/strong-data-analyst.webp" alt="Data with Denis video cover titled Concepts That Build a Strong Data Analyst" width="238" height="316" loading="lazy" decoding="async"></li>
+      </ul>
+      <p class="thumb-note">Covers from recent Data with Denis videos on TikTok.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTACT ======================= -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container contact-layout">
+    <div class="contact-copy" data-reveal>
+      <h2 class="section-title" id="contact-title">Let's work together</h2>
+      <p class="section-lede">Have data to make sense of, a system to build or an application to deploy? Tell me what you are working on and I will get back to you. I am open to data analyst roles, development opportunities and freelance projects.</p>
+      <ul class="contact-list">
+        <li><a class="contact-row" href="mailto:deniskombe5@gmail.com" data-site-mail><span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span><span><small>Email</small>deniskombe5@gmail.com</span></a></li>
+        <li><a class="contact-row" data-whatsapp href="https://wa.me/254114023355" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></span><span><small>WhatsApp</small>+254 114 023 355</span></a></li>
+        <li><a class="contact-row" data-social="linkedin" href="https://www.linkedin.com/in/deniskombe" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></span><span><small>LinkedIn</small>linkedin.com/in/deniskombe</span></a></li>
+        <li><a class="contact-row" data-social="github" href="https://github.com/denko5" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></span><span><small>GitHub</small>github.com/denko5</span></a></li>
+        <li><a class="contact-row" data-social="tiktok" href="https://www.tiktok.com/@code.ke" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg></span><span><small>TikTok</small>Data with Denis (@code.ke)</span></a></li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate data-reveal>
+      <h3 class="card-heading">Send a message</h3>
+      <div class="field">
+        <label for="cf-name">Name</label>
+        <input id="cf-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="cf-email">Email</label>
+        <input id="cf-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="cf-subject">Subject</label>
+        <input id="cf-subject" name="subject" type="text" placeholder="For example: Power BI dashboard for my business" required>
+      </div>
+      <div class="field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <button class="btn btn-primary btn-orb-cta" type="submit">Open email with my message <span class="orb" aria-hidden="true"><svg class="icon"><use href="#i-arrow-ur"/></svg></span></button>
+      <p class="form-help">This site has no server, so the button opens your email app with the message ready to send. Nothing is stored here.</p>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#home" aria-label="Denis Kombe Karisa, go to top">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-logo"/></svg></span>
+        <span class="brand-text"><strong>Denis Kombe Karisa</strong></span>
+      </a>
+      <p>Data Analyst, Software Developer, Laravel Developer and Tech Content Creator based in Kilifi, Kenya.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#content">Content Creation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <ul class="footer-social" aria-label="Social profiles">
+      <li><a class="icon-btn" data-social="github" href="https://github.com/denko5" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+      <li><a class="icon-btn" data-social="linkedin" href="https://www.linkedin.com/in/deniskombe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+      <li><a class="icon-btn" data-social="tiktok" href="https://www.tiktok.com/@code.ke" target="_blank" rel="noopener noreferrer" aria-label="TikTok (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-tiktok"/></svg></a></li>
+      <li><a class="icon-btn" data-social="x" href="https://x.com/d_w_denis" target="_blank" rel="noopener noreferrer" aria-label="X (opens in a new tab)"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></a></li>
+      <li><a class="icon-btn" data-site-mail href="mailto:deniskombe5@gmail.com" aria-label="Email Denis"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year">2026</span> Denis Kombe Karisa. All rights reserved.</p>
+    <a class="footer-top" href="#home">Back to top <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top" hidden><svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></button>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
