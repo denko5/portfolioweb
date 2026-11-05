@@ -110,6 +110,77 @@ window.PROJECTS = [
     linkNote: "Public link coming soon"
   },
   {
+    id: "healthcare-patient-analytics",
+    title: "Healthcare Patient Analytics",
+    category: "dashboards",
+    summary:
+      "An end-to-end analysis of synthetic hospital patient records using MySQL, Python, Power BI and Excel, finished with two dashboards and a written report.",
+    problem:
+      "Hospital administrators need a clear view of admissions, conditions, billing and test results to plan care and capacity.",
+    features: [
+      "MySQL cleaning: removed 2 duplicate rows, standardised text, converted dates and engineered 6 new columns",
+      "Python (pandas) validation with IQR outlier checks and exploratory analysis",
+      "Power BI dashboard with DAX measures, a date table, five slicers and KPI cards",
+      "Matching Excel dashboard built from pivot tables and slicers",
+      "A written report with key findings and recommendations"
+    ],
+    stack: ["MySQL", "Python", "Power BI", "Excel"],
+    image: {
+      src: "assets/img/projects/healthcare-powerbi-dashboard.webp",
+      alt: "Screenshot of the Healthcare Patient Analytics dashboard in Power BI with KPI cards, slicers, admissions trend, blood type, test results and age group charts",
+      placeholder: false
+    },
+    gallery: [
+      {
+        src: "assets/img/projects/healthcare-excel-dashboard.webp",
+        alt: "Screenshot of the matching Healthcare Patient Analytics dashboard built in Excel with slicers, KPI cells and pivot charts"
+      }
+    ],
+    links: [
+      { label: "GitHub repository", url: "https://github.com/denko5/healthcare-patient-analytics", type: "github" }
+    ],
+    note:
+      "The data is a synthetic Kaggle healthcare dataset, so the findings are illustrative. The project is also documented as a TikTok series for beginners."
+  },
+  {
+    id: "lung-cancer-dashboard",
+    title: "Lung Cancer Analysis Dashboard",
+    category: "dashboards",
+    summary:
+      "A two-page Power BI dashboard on lung cancer patient data, with a country map, survival breakdowns and filters, built on a dataset cleaned in Google Colab.",
+    problem:
+      "Understand how lung cancer patients are spread by country, cancer stage, smoking status and treatment, and how survival relates to them.",
+    features: [
+      "KPI cards for total patients, average age and average treatment duration",
+      "Overview page with patients by gender, cancer stage and year",
+      "Survival by smoking status, and by treatment type and family history",
+      "Country Details page with a map of patients by country and a patient table",
+      "Filters for smoking status, asthma, hypertension, gender, survival and BMI range"
+    ],
+    stack: ["Power BI", "Python", "Google Colab", "Data Cleaning"],
+    image: {
+      src: "assets/img/projects/lung-cancer-dashboard.webp",
+      alt: "Screenshot of the Lung Cancer Analysis Dashboard in Power BI showing KPI cards, gender, smoking status, cancer stage, treatment type and yearly charts with filters",
+      placeholder: false
+    },
+    gallery: [
+      {
+        src: "assets/img/projects/lung-cancer-country-details.webp",
+        alt: "Screenshot of the Country Details page of the lung cancer dashboard with a map of patients by country and a patient table"
+      }
+    ],
+    // TODO: add the GitHub repository link here once the project is on GitHub.
+    links: [
+      {
+        label: "Colab notebook (cleaned dataset)",
+        url: "https://colab.research.google.com/drive/1sguFDJgYsuvyvZ59hKCJTt2pjtRBsyKW?usp=sharing",
+        type: "notebook"
+      }
+    ],
+    note:
+      "The dashboard uses a cleaned subset of 130,819 patient records taken from a source file of 890,000 rows."
+  },
+  {
     id: "social-media-dashboard",
     title: "Social Media Campaign Dashboard",
     category: "dashboards",
