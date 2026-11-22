@@ -64,7 +64,7 @@ Open `assets/js/data.js` and edit the `SITE` object.
 Edit the matching `<section>` in `index.html`. Each is plain, readable HTML.
 
 ### CV
-Replace `assets/docs/Denis-Kombe-CV.pdf` with the new file, keeping the same name.
+Replace `assets/docs/Denis_Kombe_CV - ICT Professional.pdff` with the new file, keeping the same name.
 
 ## Projects
 
